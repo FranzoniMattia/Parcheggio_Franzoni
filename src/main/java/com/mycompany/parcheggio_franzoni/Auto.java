@@ -38,8 +38,43 @@ public class Auto implements Serializable
         this.numeroTarga=0;
         setNumeroTarga(numeroTarga);
     }
+    
+    public Auto(Auto l)
+    {
+        nome=l.getNome();
+        cognome=l.getCognome();
+        numeroTarga=l.getNumeroTarga();
+    }
+    
+    
+    public Auto()
+    {
+        nome="";
+        cognome="";
+        numeroTarga=0;
+        codiceID=0;
+    }
 
-    private void setNumeroTarga(numeroTarga);
+       public String getNome()
+    {
+        return nome;
+    }
+       
+       public void setnome(String nome)
+    {
+        this.nome=nome;
+    }
             
+       public int getNumeroTarga()
+    {
+        return numeroTarga;
+    }
+       
+        public void setNumeroTarga(int numeroTarga)
+    {
+        if (numeroTarga>0)
+            this.numeroTarga=numeroTarga;
+    }
+    
 }
   

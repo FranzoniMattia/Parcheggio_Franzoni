@@ -12,7 +12,7 @@ import java.io.Serializable;
  * @author STUDENTE
  */
     public class Parcheggio implements Serializable{
- 
+
         private int numeroParcheggi;
     }
 
