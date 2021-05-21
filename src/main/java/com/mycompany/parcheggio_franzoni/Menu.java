@@ -51,7 +51,7 @@ public class Menu
             inputUtenteOK=true;
             for (int i=0;i<inputUtente.length();i++)
             {
-                if (inputUtente.charAt(i)>='0' && inputUtente.charAt(i)<='7')
+                if (inputUtente.charAt(i)>='0' && inputUtente.charAt(i)<='9')
                     i++;
                 else
                 {
@@ -79,3 +79,5 @@ public class Menu
         return sceltaUtente;
     }
 }
+
+

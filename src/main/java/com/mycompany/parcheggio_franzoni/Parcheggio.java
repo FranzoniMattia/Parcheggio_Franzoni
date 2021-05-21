@@ -105,4 +105,3 @@ public class Parcheggio implements Serializable
    }
    
 }
-
